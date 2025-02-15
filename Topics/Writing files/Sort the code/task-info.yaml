@@ -1,0 +1,18 @@
+type: sorting
+options:
+  - <code>animal_file.writelines(animals)</code>
+  - "<code>animal_file = open('animals.txt', 'w', encoding='utf-8')</code>"
+  - "<code>animals = ['cat\\n', 'dog\\n', 'hamster\\n']</code>"
+  - <code>animal_file.close()</code>
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15105#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

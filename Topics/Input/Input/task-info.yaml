@@ -1,0 +1,13 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+  - name: input.txt
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/8338#comment
+status: Solved
+record: -1
+submission_language: python3

@@ -1,0 +1,60 @@
+type: edu
+files:
+  - name: scraper.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+  - name: Moderna_COVID_vaccine_becomes_second_to_get_US_authorization.txt
+    visible: true
+    learner_created: true
+  - name: Biden’s_pick_to_head_US_environment_agency_heartens_scientists.txt
+    visible: true
+    learner_created: true
+  - name: Is_lightning_striking_the_Arctic_more_than_ever_before.txt
+    visible: true
+    learner_created: true
+  - name: Page_1/Prestigious_AI_meeting_takes_steps_to_improve_ethics_of_research.txt
+    visible: true
+    learner_created: true
+  - name: Page_3/Daily_briefing:_2020_—_an_extraordinary_year_for_science.txt
+    visible: true
+    learner_created: true
+  - name: Page_3/Daily_briefing:_The_biggest_retractions_of_the_year.txt
+    visible: true
+    learner_created: true
+  - name: Page_2/The_science_events_to_watch_for_in_2021.txt
+    visible: true
+    learner_created: true
+  - name: Page_2/Horizon_2020_by_the_numbers:_how_€60_billion_was_divided_up_among_Europe’s_scientists.txt
+    visible: true
+    learner_created: true
+  - name: Page_2/What_the_data_say_about_border_closures_and_COVID_spread.txt
+    visible: true
+    learner_created: true
+  - name: Page_3/Moderna_COVID_vaccine_becomes_second_to_get_US_authorization.txt
+    visible: true
+    learner_created: true
+  - name: Page_3/Biden’s_pick_to_head_US_environment_agency_heartens_scientists.txt
+    visible: true
+    learner_created: true
+  - name: Page_3/Is_lightning_striking_the_Arctic_more_than_ever_before.txt
+    visible: true
+    learner_created: true
+  - name: Page_4/Can_Joe_Biden_rebuild_the_ravaged_US_Environmental_Protection_Agency.txt
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11759#comment
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Sat, 15 Feb 2025 02:02:05 UTC"
+record: -1
