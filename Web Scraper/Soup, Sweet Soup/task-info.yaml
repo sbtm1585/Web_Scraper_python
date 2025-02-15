@@ -12,15 +12,6 @@ files:
   - name: tests.py
     visible: false
     learner_created: false
-  - name: Moderna_COVID_vaccine_becomes_second_to_get_US_authorization.txt
-    visible: true
-    learner_created: true
-  - name: Biden’s_pick_to_head_US_environment_agency_heartens_scientists.txt
-    visible: true
-    learner_created: true
-  - name: Is_lightning_striking_the_Arctic_more_than_ever_before.txt
-    visible: true
-    learner_created: true
   - name: Page_1/Prestigious_AI_meeting_takes_steps_to_improve_ethics_of_research.txt
     visible: true
     learner_created: true
@@ -56,5 +47,5 @@ status: Solved
 feedback:
   message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
     to continue learning.
-  time: "Sat, 15 Feb 2025 02:02:05 UTC"
+  time: "Sat, 15 Feb 2025 02:08:32 UTC"
 record: -1

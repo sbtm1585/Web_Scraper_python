@@ -23,19 +23,17 @@ def scraper(url, n, article_type):
 
 def get_body(article_links):
     article_dict = {}
-
     for link in article_links:
         response = requests.get(link)
         soup = BeautifulSoup(response.content, 'html.parser')
         title = soup.find('title').text
         title = title.strip(string.punctuation).replace(" ","_").strip()
-        try:
-            teaser_text = (soup.find_all('p', {'class': 'article__teaser'})[0]
-                      .text.strip().encode('utf-8'))
-        except(IndexError):
+        teaser_text = soup.find('p', {'class': 'article__teaser'})
+        if teaser_text is None:  # if teaser text is None get alternative teaser
             main_article = soup.find('div', {'class': 'c-article-body main-content'})
             teaser_text = main_article.find('p').text.strip().encode('utf-8')
-
+        else:
+            teaser_text = teaser_text.text.strip().encode('utf-8')
         article_dict[title] = teaser_text
     return article_dict
 
